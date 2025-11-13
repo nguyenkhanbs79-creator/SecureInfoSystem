@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SecureInfoSystem.Entities\SecureInfoSystem.Entities.csproj" />
+    <ProjectReference Include="..\SecureInfoSystem.BLL\SecureInfoSystem.BLL.csproj" />
+  </ItemGroup>
+</Project>
