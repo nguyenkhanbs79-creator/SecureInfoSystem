@@ -145,5 +145,9 @@ namespace SecureInfoSystem.WinForms.Forms
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.CheckBox chkShowPassword;
         private System.Windows.Forms.Button btnLogin;
+namespace SecureInfoSystem.WinForms.Forms
+{
+    public partial class LoginForm
+    {
     }
 }
