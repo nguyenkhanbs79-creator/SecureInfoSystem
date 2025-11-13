@@ -12,5 +12,9 @@ namespace SecureInfoSystem.WinForms
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Forms.LoginForm());
         }
+namespace SecureInfoSystem.WinForms
+{
+    public class Program
+    {
     }
 }
