@@ -8,11 +8,13 @@ namespace SecureInfoSystem.WinForms.Forms
     public partial class LoginForm : Form
     {
         private readonly AuthService _authService;
+        private readonly string _connectionString;
 
         public LoginForm()
         {
             InitializeComponent();
             string connectionString = "Data Source=.;Initial Catalog=SecureDb;Integrated Security=True;";
+            _connectionString = connectionString;
             _authService = new AuthService(connectionString);
         }
 
@@ -31,6 +33,11 @@ namespace SecureInfoSystem.WinForms.Forms
             if (success)
             {
                 MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Hide();
+                using (var userInfoForm = new UserInfoForm(1, _connectionString))
+                {
+                    userInfoForm.ShowDialog();
+                }
                 Close();
             }
             else
