@@ -48,6 +48,7 @@ namespace SecureInfoSystem.WinForms.Forms
             this.lblTitle.Location = new System.Drawing.Point(0, 0);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(420, 40);
+            this.lblTitle.Size = new System.Drawing.Size(420, 44);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Đăng nhập hệ thống";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -93,6 +94,7 @@ namespace SecureInfoSystem.WinForms.Forms
             // 
             this.chkShowPassword.AutoSize = true;
             this.chkShowPassword.Location = new System.Drawing.Point(30, 175);
+            this.chkShowPassword.Location = new System.Drawing.Point(30, 177);
             this.chkShowPassword.Name = "chkShowPassword";
             this.chkShowPassword.Size = new System.Drawing.Size(115, 23);
             this.chkShowPassword.TabIndex = 5;
@@ -103,6 +105,7 @@ namespace SecureInfoSystem.WinForms.Forms
             // btnLogin
             // 
             this.btnLogin.Location = new System.Drawing.Point(150, 210);
+            this.btnLogin.Location = new System.Drawing.Point(150, 220);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(120, 36);
             this.btnLogin.TabIndex = 6;
@@ -145,5 +148,9 @@ namespace SecureInfoSystem.WinForms.Forms
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.CheckBox chkShowPassword;
         private System.Windows.Forms.Button btnLogin;
+namespace SecureInfoSystem.WinForms.Forms
+{
+    public partial class LoginForm
+    {
     }
 }

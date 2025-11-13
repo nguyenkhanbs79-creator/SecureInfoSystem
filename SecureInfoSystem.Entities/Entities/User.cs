@@ -13,5 +13,9 @@ namespace SecureInfoSystem.Entities
         public string AddressEncrypted { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+namespace SecureInfoSystem.Entities.Entities
+{
+    public class User
+    {
     }
 }

@@ -158,5 +158,7 @@ namespace SecureInfoSystem.WinForms.Forms
             this.PerformLayout();
 
         }
+    public partial class UserInfoForm
+    {
     }
 }
