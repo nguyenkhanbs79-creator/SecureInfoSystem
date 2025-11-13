@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SecureInfoSystem.Entities\SecureInfoSystem.Entities.csproj" />
+    <ProjectReference Include="..\SecureInfoSystem.DAL\SecureInfoSystem.DAL.csproj" />
+  </ItemGroup>
+</Project>
